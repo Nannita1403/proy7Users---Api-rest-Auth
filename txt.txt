@@ -1,0 +1,4 @@
+nannimagi
+nZyNrKZo46xs3Gt1
+
+mongodb+srv://nannimagi:nZyNrKZo46xs3Gt1@cluster0.kfa7ydr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

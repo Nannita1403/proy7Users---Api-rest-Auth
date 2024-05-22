@@ -8,7 +8,7 @@ const generateSign = (id) => {
 
 // comprobar si esa llave fue creada por el cerrajero de confianza
 const verifyJwt = (token) => {
-    return jwt.verify(token, process.env.JWT_SECRET);
+    return jwt.verify(token, process.env.JWT_SECRET); 
 }
 
 module.exports = { generateSign, verifyJwt }

@@ -28,7 +28,7 @@ const register = async (req, res, next) => {
   }
 };
 //! otro metodo Post, pero aca solo necesitamos solo userName y password para loguearse
-const login = async (req, res, next) => {
+/*const login = async (req, res, next) => {
     try {
       const user = await User.findOne({ userName: req.body.userName });
    //si no encuentro el usuario:
@@ -48,7 +48,7 @@ const login = async (req, res, next) => {
     } catch (error) {
             return res.status(400).json(error);
         }
-     };
+     };*/
 
     const deleteUser = async (req, res, next) => {
         try {
@@ -73,4 +73,4 @@ const login = async (req, res, next) => {
     };
         
 
-module.exports = {register, login, deleteUser, getUsers};
+module.exports = {register, deleteUser, getUsers};
